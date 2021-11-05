@@ -29,12 +29,17 @@ public class TestPersonne {
 //		personne2.prenom = "Dupont" ;
 //		personne2.monAdresse = adresse2 ;
 		
-		Personne personne1 = new Personne("Garcia","Jimmy");
-		System.out.println(personne1);
+//		Personne personne1 = new Personne("Garcia","Jimmy");
+//		System.out.println(personne1);
 		
 		AdressePostale adresse2 = new AdressePostale(9, "rue du blé froment",11090, "Montredon");
+		AdressePostale adresse3 = new AdressePostale(40, "rue barbes", 11000, "Carcassonne");
+		
 		Personne personne2 = new Personne("Gaelle","Bertelini",adresse2);
 		System.out.println(personne2);
 		
+		personne2.setNom("Bagrada");
+		personne2.setMonAdresse(adresse3);
+		System.out.println(personne2);
 	}
 }

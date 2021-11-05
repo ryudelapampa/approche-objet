@@ -12,7 +12,6 @@ public class AdressePostale {
 		libelleRue = libRue;
 		codePostale = codePost;
 		libelleVille = libVille;
-		
 	}
 
 	@Override
