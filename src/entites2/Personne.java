@@ -19,7 +19,7 @@ public class Personne {
 		this.monAdresse = monAdresse ;
 	}
 	
-	public void getNomPrenom() { // GETTER nom en MAJUSCULE + prenom 
+	public void affichageIdentite() { // GETTER nom en MAJUSCULE + prenom 
 		System.out.println(prenom+" "+ nom.toUpperCase());
 	}
 
