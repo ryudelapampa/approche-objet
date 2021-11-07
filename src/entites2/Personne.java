@@ -52,4 +52,9 @@ public class Personne {
 		return "Personne [nom=" + nom + ", prenom=" + prenom + ", monAdresse=" + monAdresse + "]";
 	}
 	
+	public void afficherCarte() {
+		String test = "Hello World";
+		System.out.println(test);
+	}
+	
 }
