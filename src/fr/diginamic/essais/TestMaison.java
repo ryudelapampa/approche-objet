@@ -8,8 +8,8 @@ public class TestMaison {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Piece[] piece1 = {};
-		Maison maMaison = new Maison(piece1);
+		
+		Maison maMaison = new Maison();
 		Chambre chambre1 = new Chambre(12.5, 1);
 		maMaison.ajouterPiece(chambre1);
 		
